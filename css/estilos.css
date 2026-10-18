@@ -1,0 +1,32 @@
+.app-header {
+    background: linear-gradient(120deg, #14213d, #2457a7);
+    color: #fff;
+}
+
+.header-eyebrow {
+    letter-spacing: 0.12em;
+    color: #c9dcff;
+}
+
+.header-subtitle {
+    color: #e1eaff;
+}
+
+@media (max-width: 576px) {
+    main.container {
+        padding-left: 0.75rem;
+        padding-right: 0.75rem;
+    }
+
+    h1.display-5 {
+        font-size: 1.75rem;
+    }
+
+    .table-responsive {
+        font-size: 0.875rem;
+    }
+    .app-header {
+        padding-top: 1.5rem !important;
+        padding-bottom: 1.5rem !important;
+    }
+}
